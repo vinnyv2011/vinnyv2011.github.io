@@ -1,12 +1,24 @@
 .flex{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .main{
-
+  width: 75vh;
 }
 
+.inside{
+width: 80vh;
+height: 100vh;
+}
+
+.page2{
+  margin: 0;
+  padding: 0;
+background-color: black;
+
+}
 ul {
 list-style-type: none;
 }
