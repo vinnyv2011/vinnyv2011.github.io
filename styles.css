@@ -5,13 +5,14 @@
 }
 
 .main{
-  
+min-height: 100%;
   width: auto;
   height: 100vh;
 
 }
 
 .inside{
+  max-width: 100%;
 width: 80vh;
 height: 100vh;
 }
