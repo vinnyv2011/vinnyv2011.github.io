@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Prototyping Project Phase 2</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
@@ -204,7 +205,7 @@
     <!-- FIRST row-->
 
     <div class="tile">
-      <button class="trigger">
+
       <div class="flip-box">
         <div class="flip-box-inner">
           <div class="flip-box-front">
@@ -216,18 +217,21 @@
     </div>
   </div>
   <div class="flip-box-back">
+    <button class="trigger">
     <h2>Paris</h2>
+    </button>
+    <div class="modal">
+           <div class="modal-content">
+               <span class="close-button">&times;</span>
+               <h1>Hello, I am a modal!</h1>
+           </div>
+    </div>
     <p>What an amazing city</p>
   </div>
 </div>
 </div>
-</button>
-<div class="modal">
-       <div class="modal-content">
-           <span class="close-button">&times;</span>
-           <h1>Hello, I am a modal!</h1>
-       </div>
-   </div>
+
+
     <div class="tile is-parent">
       <article class="tile is-child box has-background-grey-light">
         <p class="title"> <a href="https://weather.com/weather/today/l/USTX0111:1:US" target="blank">Current Weather</a></p>
@@ -287,5 +291,13 @@
 </div>
     </div>
   </section>
+  <button class="trigger">Click here to trigger the modal!</button>
+   <div class="modal">
+       <div class="modal-content">
+           <span class="close-button">&times;</span>
+           <h1>Hello, I am a modal!</h1>
+       </div>
+   </div>
   </body>
+
 </html>
