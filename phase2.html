@@ -9,9 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   </head>
   <body>
   <section class="section">
+    <div id="main"
     <div class="container">
         <!-- First Section -->
       <div class="tile is-ancestor">
@@ -42,7 +44,7 @@
           </figure>
         </article>
       </div>
-      <div class="tile is-parent">
+      <div class="tile is-parent" id="bigbend">
         <article class="tile is-child notification is-success">
             <p class="title">Big Bend</p>
             <p class="subtitle">National Park</p>
@@ -181,32 +183,18 @@
 
   </div>
   </div>
+</div>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <!--ONE-->
+<div class= "hide animated fadeIn slowerid" id="one">
 <div class="tile is-ancestor">
   <div class="tile is-vertical">
     <!-- FIRST row-->
 
     <div class="tile is-parent">
       <article class="tile is-child box has-background-grey-light">
-        <p class="title"> <img src="bigbendsky.jpg"></p>
+        <p class="title"> <img src="bigbendsky.jpg" width=100%></p>
       </article>
     </div>
   <!-- SECOND row-->
@@ -216,7 +204,7 @@
       <article class="tile is-child box has-background-grey-light">
 
 
-      <div class="content"> <p><a class="twitter-timeline" data-height="500" href="https://twitter.com/BigBendNPS?ref_src=twsrc%5Etfw">Tweets by BigBendNPS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      <div class="content"> <p><a class="twitter-timeline" data-height="550" href="https://twitter.com/BigBendNPS?ref_src=twsrc%5Etfw">Tweets by BigBendNPS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
       </div>
       </article>
   </div>
@@ -225,7 +213,7 @@
       <div class="content">
 
         <p class="title"> </p>
-        <br>
+
         <p class="subtitle">
           <img src="bigbendcard.gif"></p>
         </figure>
@@ -236,7 +224,7 @@
   <div class="tile is-parent is-vertical">
     <article class="tile is-child box has-background-grey-light">
       <p class="title"> </p>
-      <p class="subtitle"><a href="https://www.nationalparkstraveler.org/2019/02/temporary-closures-big-bend-protect-peregrine-falcons" target="blank"><img src="bear.gif"></a></p>
+      <p id="bear"><img src="bear.gif"></p>
     </article>
   </div>
   </div>
@@ -244,21 +232,21 @@
   <div class="tile is-parent">
     <article class="tile is-child box has-background-grey-light">
       <p class="title"></p>
-      <p class="subtitle"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d446113.4266285855!2d-103.2425379!3d29.1274869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64467dbc2783850f!2sBig+Bend+National+Park!5e0!3m2!1sen!2sus!4v1554265167015!5m2!1sen!2sus" width="1150" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+      <p class="subtitle"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d446113.4266285855!2d-103.2425379!3d29.1274869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64467dbc2783850f!2sBig+Bend+National+Park!5e0!3m2!1sen!2sus!4v1554265167015!5m2!1sen!2sus" width=100% height="600" frameborder="0" style="border:0" allowfullscreen></iframe></p>
     </article>
   </div>
 </div>
 </div>
-
+</div>
 <!--TWO-->
-
+<div class="hide animated fadeIn slower" id="two">
 <div class="tile is-ancestor">
   <div class="tile is-vertical">
     <!-- FIRST row-->
 
-    <div class="tile is-parent">
+    <div class="tile is-parent" id="cali">
       <article class="tile is-child box has-background-grey-light">
-        <p class="title"> <img src="bigbendsky.jpg"></p>
+        <p class="title"> <img src="cali.gif" width=100% height=50%></p>
       </article>
     </div>
   <!-- SECOND row-->
@@ -268,18 +256,15 @@
       <article class="tile is-child box has-background-grey-light">
 
 
-      <div class="content"> <p><a class="twitter-timeline" data-height="500" href="https://twitter.com/BigBendNPS?ref_src=twsrc%5Etfw">Tweets by BigBendNPS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      <div class="content"> <p><img src="honey2.gif" height=600></p>
       </div>
       </article>
   </div>
   <div class="tile is-parent  ">
     <article class="tile is-child box notification has-background-link">
       <div class="content">
-
-        <p class="title"> </p>
-        <br>
         <p class="subtitle">
-          <img src="bear.gif"></p>
+          <img src="bear.gif" height=450></p>
         </figure>
       </div>
       <!-- Put any content you want -->
@@ -288,7 +273,8 @@
   <div class="tile is-parent is-vertical">
     <article class="tile is-child box has-background-grey-light">
       <p class="title"> </p>
-      <p class="subtitle"><a href="https://www.nationalparkstraveler.org/2019/02/temporary-closures-big-bend-protect-peregrine-falcons" target="blank"><img src="bear.gif"></a></p>
+
+      <p class="subtitle"><img src="peta.jpg"></p>
     </article>
   </div>
   </div>
@@ -296,21 +282,21 @@
   <div class="tile is-parent">
     <article class="tile is-child box has-background-grey-light">
       <p class="title"></p>
-      <p class="subtitle"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d446113.4266285855!2d-103.2425379!3d29.1274869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64467dbc2783850f!2sBig+Bend+National+Park!5e0!3m2!1sen!2sus!4v1554265167015!5m2!1sen!2sus" width="1150" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+      <p class="subtitle"><img src="winnie.gif" width=100%  ></p>
     </article>
   </div>
 </div>
 </div>
-
+</div>
 <!--THREE-->
-
+<div class="hide animated fadeIn slower" id="three">
 <div class="tile is-ancestor">
   <div class="tile is-vertical">
     <!-- FIRST row-->
 
     <div class="tile is-parent">
       <article class="tile is-child box has-background-grey-light">
-        <p class="title"> <img src="bigbendsky.jpg"></p>
+        <p class="title"> <img src="goldengate.jpg" width=100%></p>
       </article>
     </div>
   <!-- SECOND row-->
@@ -318,20 +304,21 @@
 
     <div class="tile is-parent is-vertical">
       <article class="tile is-child box has-background-grey-light">
+<p> </p>
+<br>
+<br>
 
-
-      <div class="content"> <p><a class="twitter-timeline" data-height="500" href="https://twitter.com/BigBendNPS?ref_src=twsrc%5Etfw">Tweets by BigBendNPS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      <div class="content"> <p><img src="lebron.gif" height="800"></p>
       </div>
       </article>
   </div>
   <div class="tile is-parent  ">
-    <article class="tile is-child box notification is-success">
+    <article class="tile is-child box notification has-background-warning">
       <div class="content">
 
-        <p class="title"> </p>
-        <br>
+
         <p class="subtitle">
-          <img src="bigbendcard.gif"></p>
+          <img src="califlag.gif" width=100% ></p>
         </figure>
       </div>
       <!-- Put any content you want -->
@@ -340,7 +327,8 @@
   <div class="tile is-parent is-vertical">
     <article class="tile is-child box has-background-grey-light">
       <p class="title"> </p>
-      <p class="subtitle"><a href="https://www.nationalparkstraveler.org/2019/02/temporary-closures-big-bend-protect-peregrine-falcons" target="blank"><img src="bear.gif"></a></p>
+      <br>
+      <p class="subtitle"><img src="yosemite.gif"></a></p>
     </article>
   </div>
   </div>
@@ -348,13 +336,41 @@
   <div class="tile is-parent">
     <article class="tile is-child box has-background-grey-light">
       <p class="title"></p>
-      <p class="subtitle"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d446113.4266285855!2d-103.2425379!3d29.1274869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64467dbc2783850f!2sBig+Bend+National+Park!5e0!3m2!1sen!2sus!4v1554265167015!5m2!1sen!2sus" width="1150" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+      <p class="subtitle"><img src="terminator.gif" width=100%</p>
     </article>
   </div>
 </div>
 </div>
+</div>
   </section>
 
+
+<script type="text/javascript">
+
+$("#bigbend").click(function () {
+
+    $('#one').removeClass('hide');
+
+    $('#main').addClass('hide')
+
+    });
+
+$("#bear").click(function () {
+
+    $('#two').removeClass('hide');
+
+    $('#one').addClass('hide')
+
+    });
+
+    $("#cali").click(function () {
+
+        $('#three').removeClass('hide');
+
+        $('#two').addClass('hide')
+
+        });
+</script>
   </body>
 
 </html>
